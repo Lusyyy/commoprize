@@ -11,3 +11,6 @@ venv/
 .env
 .DS_Store
 *.json
+
+# Exclude frontend directory from the ignore rules
+!frontend/
