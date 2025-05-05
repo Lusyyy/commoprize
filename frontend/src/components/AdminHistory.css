@@ -1,0 +1,128 @@
+.filter-section {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .table-responsive {
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  
+  .table th {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    z-index: 10;
+  }
+  
+  /* System Logs */
+  .system-logs {
+    margin-top: 15px;
+  }
+  
+  .log-container {
+    background-color: #212529;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .log-content {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+    margin: 0;
+  }
+  
+  .log-timestamp {
+    color: #6c757d;
+    margin-right: 10px;
+  }
+  
+  .log-level {
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .log-info {
+    background-color: #0d6efd;
+    color: white;
+  }
+  
+  .log-warning {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .log-error {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    .filter-section {
+      padding: 10px;
+    }
+    
+    .log-container {
+      max-height: 300px;
+    }
+  }
+  /* AdminHistory.css */
+
+.table-responsive {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.visualization-modal .modal-content {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.visualization-container {
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.metrics-badge {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.6rem;
+  margin-right: 5px;
+}
+
+.history-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.history-card .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.refresh-btn:hover {
+  transform: rotate(180deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.metric-value {
+  font-family: 'Consolas', monospace;
+  font-weight: 500;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

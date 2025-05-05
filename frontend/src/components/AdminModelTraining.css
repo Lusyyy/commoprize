@@ -1,0 +1,251 @@
+/* Styling untuk AdminModelTraining */
+.step-container {
+  margin-bottom: 30px;
+}
+
+.step-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.step-divider {
+  margin: 30px 0;
+  border-top: 1px dashed #ccc;
+}
+
+.preprocessing-results-container {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.dataset-table-container {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.list-success {
+  border-left: 3px solid #28a745;
+}
+
+.list-danger {
+  border-left: 3px solid #dc3545;
+}
+
+.workflow-description {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.training-status {
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Gaya untuk container visualisasi */
+.visualizations-container {
+  margin-top: 2rem;
+}
+
+.visualizations-container img {
+  max-height: 300px;
+  object-fit: contain;
+}
+
+/* Styling untuk AdminModelTraining */
+.step-container {
+  margin-bottom: 30px;
+}
+
+.step-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.step-divider {
+  margin: 30px 0;
+  border-top: 1px dashed #ccc;
+}
+
+.preprocessing-results-container {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.dataset-table-container {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.list-success {
+  border-left: 3px solid #28a745;
+}
+
+.list-danger {
+  border-left: 3px solid #dc3545;
+}
+
+.workflow-description {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.training-status {
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Gaya untuk container visualisasi */
+.visualizations-container {
+  margin-top: 2rem;
+}
+
+.visualizations-container img {
+  max-height: 300px;
+  object-fit: contain;
+}
+
+/* File info */
+.file-info {
+  font-size: 0.85rem;
+}
+
+.file-info h6 {
+  margin-bottom: 0.5rem;
+}
+
+.file-info p {
+  margin-bottom: 0.25rem;
+}
+
+/* Modal styles */
+.modal-body pre {
+  font-family: monospace;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
+
+/* Model info container */
+.model-info-container {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+/* Training history */
+.training-history-container {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.training-history-container td, 
+.training-history-container th {
+  vertical-align: middle;
+}
+/* AdminModelTraining.css */
+
+.step-container {
+  margin-bottom: 20px;
+}
+
+.step-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.step-content {
+  padding: 10px 0;
+}
+
+.step-divider {
+  margin: 30px 0;
+  border-top: 1px dashed #ccc;
+}
+
+.workflow-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.dataset-table-container {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+.dataset-table th {
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa;
+  z-index: 1;
+}
+
+.preprocessing-results-container {
+  max-height: 250px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+.training-status {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.visualizations-container {
+  margin-top: 20px;
+}
+
+.model-info-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.training-history-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.file-info {
+  font-size: 0.85rem;
+}
+/* Styling untuk tombol refresh pada visualisasi */
+.position-relative {
+  position: relative;
+}
+
+.refresh-overlay {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.card:hover .refresh-overlay {
+  opacity: 1;
+}
+
+.refresh-button {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ddd;
+}

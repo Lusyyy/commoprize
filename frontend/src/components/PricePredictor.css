@@ -1,0 +1,76 @@
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .chart-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .legend-color {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 2px;
+  }
+  
+  .analysis-stats, .model-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .stat-item, .info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stat-label, .info-label {
+    font-weight: 600;
+    color: #495057;
+  }
+  
+  .stat-value, .info-value {
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .stat-item, .info-item {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+    }
+  }
+  
+  /* Styling untuk tabel */
+  .table-responsive {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .table th {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    z-index: 10;
+  }
+  
+  /* Animation untuk loading */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
