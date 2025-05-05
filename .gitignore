@@ -1,0 +1,13 @@
+
+# Ignore log
+backend/scraping.log
+
+# Ignore all node_modules or venv
+node_modules/
+venv/
+
+# Ignore generated/temporary files
+*.log
+.env
+.DS_Store
+*.json
